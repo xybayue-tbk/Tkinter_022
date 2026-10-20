@@ -14,3 +14,5 @@ jendela = tk.Tk()
 jendela.title("Aplikasi Prediksi Prodi Pilihan")
 jendela.geometry("450x650")
 jendela.configure(bg="#202050")
+
+judul = tk.Label(jendela, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 14, "bold"), fg="white", bg="#202050")
