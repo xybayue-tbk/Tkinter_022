@@ -40,3 +40,9 @@ lbl_jurusan.pack()
 pilihan = ["Teknologi Informasi", "Teknik Komputer", "Sistem Informasi"]
 jurusan_dipilih = tk.StringVar(jendela)
 jurusan_dipilih.set(pilihan[0])
+
+dropdown = tk.OptionMenu(frame_bawah, jurusan_dipilih, *pilihan)
+dropdown.pack(pady=5)
+
+tombol = tk.Button(jendela, text="Hasil Prediksi", font=("Arial", 10, "bold"), command=hasil_prediksi)
+tombol.pack(pady=10)
