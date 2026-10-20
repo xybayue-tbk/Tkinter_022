@@ -20,3 +20,12 @@ judul.pack(pady=15)
 
 frame_nilai = tk.Frame(jendela, bg="#202050")
 frame_nilai.pack()
+
+input_nilai = []
+for i in range(1, 11):
+    lbl = tk.Label(frame_nilai, text="Nilai Mata Pelajaran " + str(i) + ":", fg="white", bg="#202050", font=("Arial", 10, "bold"))
+    lbl.grid(row=i, column=0, padx=10, pady=5, sticky="e")
+    
+    kotak_input = tk.Entry(frame_nilai, width=20)
+    kotak_input.grid(row=i, column=1, padx=10, pady=5)
+    input_nilai.append(kotak_input)
