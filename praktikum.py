@@ -29,3 +29,6 @@ for i in range(1, 11):
     kotak_input = tk.Entry(frame_nilai, width=20)
     kotak_input.grid(row=i, column=1, padx=10, pady=5)
     input_nilai.append(kotak_input)
+
+frame_bawah = tk.Frame(jendela, bg="#202050")
+frame_bawah.pack(pady=15)
