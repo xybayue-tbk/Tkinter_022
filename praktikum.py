@@ -32,3 +32,6 @@ for i in range(1, 11):
 
 frame_bawah = tk.Frame(jendela, bg="#202050")
 frame_bawah.pack(pady=15)
+
+lbl_jurusan = tk.Label(frame_bawah, text="Pilihan Jurusan Anda:", fg="white", bg="#202050", font=("Arial", 10))
+lbl_jurusan.pack()
