@@ -35,3 +35,8 @@ frame_bawah.pack(pady=15)
 
 lbl_jurusan = tk.Label(frame_bawah, text="Pilihan Jurusan Anda:", fg="white", bg="#202050", font=("Arial", 10))
 lbl_jurusan.pack()
+
+
+pilihan = ["Teknologi Informasi", "Teknik Komputer", "Sistem Informasi"]
+jurusan_dipilih = tk.StringVar(jendela)
+jurusan_dipilih.set(pilihan[0])
