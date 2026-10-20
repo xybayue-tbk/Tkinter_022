@@ -46,3 +46,5 @@ dropdown.pack(pady=5)
 
 tombol = tk.Button(jendela, text="Hasil Prediksi", font=("Arial", 10, "bold"), command=hasil_prediksi)
 tombol.pack(pady=10)
+
+jendela.mainloop()
