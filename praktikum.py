@@ -19,3 +19,4 @@ judul = tk.Label(jendela, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial",
 judul.pack(pady=15)
 
 frame_nilai = tk.Frame(jendela, bg="#202050")
+frame_nilai.pack()
