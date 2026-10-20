@@ -9,3 +9,8 @@ def hasil_prediksi():
     hasil_lbl = tk.Label(popup, text="Prediksi Prodi: Teknologi Informasi", 
         font=("Arial", 12, "bold"), fg="#00ffff", bg="#202050")
     hasil_lbl.pack(expand=True)
+
+jendela = tk.Tk()
+jendela.title("Aplikasi Prediksi Prodi Pilihan")
+jendela.geometry("450x650")
+jendela.configure(bg="#202050")
